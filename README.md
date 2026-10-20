@@ -59,7 +59,7 @@ The game flows as follows:
 5. Consonants: If the user inputs a consonant that hasn’t been guessed and the consonant is not in the secret word, the user loses one guess if it’s a consonant.
 6. Vowels: If the vowel hasn’t been guessed and the vowel is not in the secret word, the user loses two guesses. Vowels are (a, e, i , o, u). y does not count as a vowel.
 
-#### Game Rules
+#### Game Termination
 1. The game should end when the user constructs the full word or runs out of guesses
 2. If the player runs out of guesses before completing the word:
     1. Tell them they lost
