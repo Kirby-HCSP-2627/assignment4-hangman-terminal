@@ -21,7 +21,7 @@ random.choice(list_of_words) # returns an object chosen randomly from a list
 You will implement a variation of the classic word game Hangman. If you are unfamiliar with the rules of the game, [read here](http://en.wikipedia.org/wiki/Hangman_(game)) . Don’t be intimidated by this problem it's actually easier than it looks! I have broken down the whole game into smaller parts. I would recommend to bring up the google slides for some more examples. The following parts are each section in the program with your tasks. 
 
 #### Game Architecture
-1. The computer must select a word at random from the list of available words that was provided in words.txt. Write a function get_word() that takes a string, filename, and returns a random word read from the file. The file, word_list.txt, has all the words on 1 line separated by commas. 
+1. The computer must select a word at random from the list of available words that was provided in words.txt. Write a function get_word() that takes a string, filename, and returns a random word read from the file. The file, word_list.txt, has all the words on 1 line separated by a single space. 
 
 2. Users start with 6 guesses.
 
